@@ -1,7 +1,55 @@
-#section1{
+#section1 {
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-image: url("../images/imagebg1.png");
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section1-text {
+    width: 50%;
+    height: 30%;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.section1-text h1 {
+    color: #F0C260;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section1-text p {
+    color: #fff;
+    text-align: center;
+}
+
+.section1-text button {
+    background-color: #F0C260;
+    width: 50%;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.section1-text button:hover {
+    background-color: #F0C260;
+    opacity: 90%;
+    cursor: pointer;
 }

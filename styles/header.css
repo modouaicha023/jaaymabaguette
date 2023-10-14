@@ -8,24 +8,37 @@ header {
     position: fixed;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-    nav ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        color: rgb(68, 56, 2);
 
-    }
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgb(68, 56, 2);
+
+}
 
 
 
-    .logo {
-        font-size: 1.2rem;
-        font-weight: 900;
-        color: rgb(68, 56, 2);
-    }
+.logo {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgb(68, 56, 2);
+}
 
-    #baguette {
-        color: rgb(160, 117, 8);
-        /* padding-left: 5px; */
-    }
+#baguette {
+    color: rgb(160, 117, 8);
+    /* padding-left: 5px; */
+}
+
+.right-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.material-symbols-outlined {
+    color: rgb(68, 56, 2);
+}
