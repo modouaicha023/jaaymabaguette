@@ -1,4 +1,85 @@
 #section2 {
+    width: 100%;
+    height: 100%;
     background-color: #1E2224;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-section2 {
+    width: 100%;
+    height: 50%;
+}
+
+/* subsection1  */
+
+
+#subsection1 {
+    background-color: #1E2224;
+    padding: 10% 50px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#subsection1 p {
+    width: 50%;
+    text-align: center;
+}
+
+#subsection1 h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* subsection2  */
+
+#subsection2 {
+    background-color: #1a1d1f;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+#subsection2>div {
+    width: 50%;
+    height: 50%;
+}
+
+#subsection2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+}
+
+#subsection2-text h2 {
+    font-size: 3rem;
+    align-self: flex-start;
+}
+
+#subsection2-text p {
+    width: 90%;
+}
+
+#subsection2-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#subsection2-images img {
+    width: 40%;
 }
