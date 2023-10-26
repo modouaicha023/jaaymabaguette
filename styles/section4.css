@@ -1,0 +1,75 @@
+#section4 {
+    display: flex;
+    height: max-content;
+}
+
+#section4 div {
+    width: 100%;
+}
+
+#section4-1 {
+    background-image: url("../images/image1section4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#section4-2 {
+    background-image: url("../images/image2section4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 54px;
+}
+
+.list-plat {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.plat-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#section4-2 h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-price h3,
+.title-price p {
+    font-size: 1rem;
+}
+
+
+.description-plat {
+    font-size: .8rem;
+    opacity: 40%;
+}
+
+.prev-price {
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+.present-price {
+    color: #F0C260;
+
+}

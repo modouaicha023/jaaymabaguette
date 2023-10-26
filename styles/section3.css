@@ -1,0 +1,44 @@
+#section3 {
+    background-image: url("../images/image1section3.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10%;
+    max-height: 300px;
+    padding: 54px;
+}
+
+#section3-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#section3 div h2 {
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+#section3 div p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#btn-command {
+    height: 70px;
+    width: 200px;
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid black;
+    transition: .5s ease;
+}
+
+#btn-command:hover {
+    cursor: pointer;
+    opacity: 80%;
+    color: #F0C260;
+    background-color: black;
+}
