@@ -1,0 +1,90 @@
+#section5 {
+    background-image: url("../images/bgsection5.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 4rem;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#section5 a {
+    color: white;
+
+}
+
+#section5 h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+#nav-product {
+    display: flex;
+    gap: 2rem;
+}
+
+#nav-product a li {
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#nav-product a li:hover {
+    background-color: aliceblue;
+    color: black !important;
+
+}
+
+.active-products {
+    background-color: #F0C260 !important;
+    color: black !important;
+    border-radius: 20px;
+}
+
+.active-products:hover {
+    background-color: #ffffff !important;
+    color: black !important;
+    border-radius: 20px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width:fit-content;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 180px;
+    height: 180px;
+}
+
+.product p {
+    display: flow-root;
+}
+.products-title{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.products-price{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F0C260 !important;
+
+}
