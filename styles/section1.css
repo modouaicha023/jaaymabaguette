@@ -2,9 +2,8 @@
     height: 100%;
     background-image: url("../images/imagebg1.png");
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: 50px; */
 
     display: flex;
     align-items: center;
@@ -15,10 +14,10 @@
 .section1-text {
     width: 50%;
     height: 30%;
-    min-width: 300px;
+    min-width: 400px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 50px;
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,8 +46,47 @@
     outline: none;
     border: none;
 }
+
 .section1-text button:hover {
     background-color: #F0C260;
     opacity: 90%;
     cursor: pointer;
+}
+
+@media (max-width:430px) {
+    .section1-text {
+        width: 50%;
+        height: 30%;
+        min-width: 300px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+
+    .section1-text h1 {
+        color: #F0C260;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .section1-text button {
+        background-color: #F0C260;
+        width: auto;
+        height: auto;
+        font-size: 1rem;
+        font-weight: 700;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 5px;
+    }
+    .section1-text p {
+        color: #fff;
+        text-align: center;
+        font-size: .9rem;;
+    }
 }

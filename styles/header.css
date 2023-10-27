@@ -6,8 +6,11 @@ header {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: 320px;
 }
 
 nav ul {
@@ -48,4 +51,33 @@ nav ul {
 
 .material-symbols-outlined {
     color: rgb(68, 56, 2);
+}
+#logo-menu{
+    width:32px;
+    height: 32px;
+    display: none;
+}
+
+@media (max-width:800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #navbar{
+        display: none;
+    }
+    .right-menu{
+        display: none;
+    }
+    #logo-menu{
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .logo{
+        margin-left: 20px;
+    }
 }

@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .sub-section2 {
@@ -40,15 +40,20 @@
     text-align: center;
 }
 
+#subsection1 img {
+    width: 100%;
+    min-width: 400px;
+}
+
 /* subsection2  */
 
 #subsection2 {
     background-color: #1a1d1f;
 
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    padding: 50px;
 }
 
 #subsection2>div {
@@ -78,9 +83,101 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
+    padding: 30px;
 }
 
 #subsection2-images img {
-    width: 40%;
+    width: 50%;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+@media (max-width:700px) {
+    #subsection1 h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #subsection1 p {
+        width: fit-content;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    #subsection1 img {
+        width: 100%;
+        min-width: 300px;
+    }
+
+    #subsection2-text h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:900px) {
+
+    #subsection2-text h2 {
+        font-size: 2rem;
+    }
+
+    #subsection2-text p {
+        width: 90%;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width:720px) {
+    #subsection2 {
+        background-color: #1a1d1f;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+
+    }
+
+    #subsection2-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    #subsection2-text h2 {
+        font-size: 5vw;
+    }
+
+    #subsection2-text p {
+        font-size: 3vw;
+        width: 100%;
+
+    }
+}
+
+@media (max-width:380px) {
+    #section2 {
+        width: 100%;
+        height: max-content;
+        background-color: #1E2224;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #subsection2-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: max-content;
+    }
+    
+    #subsection2-images img {
+        width: 100%;
+    }
 }
