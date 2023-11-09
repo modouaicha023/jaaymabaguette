@@ -20,10 +20,12 @@
 #section5 h2 {
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
+    text-align: center;
 }
 
 #nav-product {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
