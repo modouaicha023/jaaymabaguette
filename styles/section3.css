@@ -2,10 +2,24 @@
     background-image: url("../images/image1section3.png");
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10%;
+    justify-content: center;
+    gap: 30px;
     max-height: 300px;
     padding: 54px;
+}
+
+@media (max-width:540px) {
+    #section3 {
+        flex-direction: column;
+        max-height: 400px;
+        justify-content: center;
+        padding: 20px;
+
+    }
+
+    #section3-1 {
+        text-align: center;
+    }
 }
 
 #section3-1 {
