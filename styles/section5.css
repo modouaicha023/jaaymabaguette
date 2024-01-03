@@ -1,4 +1,4 @@
-#section5 {
+#products-section {
     background-image: url("../images/bgsection5.png");
     background-position: center;
     background-size: cover;
@@ -12,12 +12,12 @@
     gap: 2rem;
 }
 
-#section5 a {
+#products-section a {
     color: white;
 
 }
 
-#section5 h2 {
+#products-section h2 {
     font-family: 'Sacramento', cursive;
     font-size: 3rem;
     text-align: center;

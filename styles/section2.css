@@ -1,4 +1,4 @@
-#section2 {
+#about {
     width: 100%;
     height: 100%;
     background-color: #1E2224;
@@ -157,7 +157,7 @@
 }
 
 @media (max-width:380px) {
-    #section2 {
+    #about {
         width: 100%;
         height: max-content;
         background-color: #1E2224;
